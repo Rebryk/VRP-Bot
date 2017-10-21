@@ -1,0 +1,7 @@
+{
+  "server_host": "https://vrp.eu.ngrok.io/recognize",
+  "app_host": "127.0.0.1",
+  "app_port": 9876,
+  "access_token": "769155bf9551479cbb1aab3878c47c81b963d3a3229a50fb19162d3b066e1bfa00eac9f453f656a29ce3f",
+  "confirmation_key": "180426db"
+}
