@@ -13,3 +13,7 @@ Send an audio message and get a recognized text! <br>
   "confirmation_key": <vk confirmation key>
 }
 ```
+
+### Related projects
+* [Voice recognition server](https://github.com/Rebryk/VRP-Server)
+* [Voice recognition extension for Chrome](https://github.com/Rebryk/VRP-Chrome-Extension/)
