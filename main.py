@@ -47,7 +47,7 @@ async def process_message(request):
                               user_id=user_id,
                               message='Обрабатываю сообщение, это может занять некоторое время...&#128164;')
             for (mp3, ogg) in audio_messages:
-                async with session.post(server_host, json={'url_mp3': mp3, 'url_ogg': ogg, 'url': ogg}) as response:
+                async with session.post(server_host, json={'url': mp3}) as response:
                     response_text = await response.text()
                     if response.status != 200:
                         api.messages.send(access_token=access_token,
