@@ -1,5 +1,5 @@
 aiohttp==2.3.1
 psycopg2==2.7.3.1
-ujson==1.35
+ujson==5.2.0
 urllib3==1.22
 vk==2.0.2
